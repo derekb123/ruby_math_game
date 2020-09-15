@@ -1,0 +1,30 @@
+#Nouns to be classes: 
+#Player, Turn, Game
+#player- store id info, answer methods, score?
+#turn- stores who's turn it is,
+#game, stores players, status, score
+
+Player:
+Role- hold the information for each player
+-stores id info(variable)
+  -name
+-stores lives info(variable)
+-LUXURY-status living(boolean)
+
+Question:
+-Question - creates a random number between 0-10
+ -everytime we create a new questoin- create 2 nums- and use 
+-Answer
+-methods take answer, check answer, etc
+
+Game: 
+Role- Master that orchestrates player and question.
+-Initialize players
+-take in player answer
+-have a loop (do while)
+  -manage what a turn is
+  -checks players (method)
+  -reports on satus (method)
+  -report game over
+-turn (number or player)
+
